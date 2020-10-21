@@ -27,6 +27,15 @@ yum -y install mkisofs
 
 SetupDisk 0
 SetupDisk 1
+SetupDisk 2
+SetupDisk 3
+SetupDisk 4
+SetupDisk 5
+SetupDisk 6
+SetupDisk 7
+
+
+
 
 mkfs.ext4 /root/vdisk0 << E
 y
