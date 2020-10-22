@@ -28,6 +28,7 @@ yum -y install httpd
 yum -y install nmap
 yum -y install wireshark wireshark-gnome
 yum -y install stress
+yum -y install docker
 
 
 SetupDisk 0
