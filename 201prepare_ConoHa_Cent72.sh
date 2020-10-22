@@ -27,6 +27,8 @@ yum -y install mkisofs
 yum -y install httpd
 yum -y install nmap
 yum -y install wireshark wireshark-gnome
+yum -y install stress
+
 
 SetupDisk 0
 SetupDisk 1
