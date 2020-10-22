@@ -25,6 +25,7 @@ rm -f /etc/systemd/system/default.target
 ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
 yum -y install mkisofs
 yum -y install httpd
+yum -y install nmap
 
 SetupDisk 0
 SetupDisk 1
