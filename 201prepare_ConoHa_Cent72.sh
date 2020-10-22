@@ -26,6 +26,7 @@ ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.targe
 yum -y install mkisofs
 yum -y install httpd
 yum -y install nmap
+yum -y install wireshark wireshark-gnome
 
 SetupDisk 0
 SetupDisk 1
